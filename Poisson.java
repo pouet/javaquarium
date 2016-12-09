@@ -15,32 +15,6 @@ enum Sexe {
 enum Regime {
 	CARNIVORE, HERBIVORE;
 }
-/*
-enum Race {
-	MEROU ("merou", Regime.CARNIVORE),
-	THON  ("thon",  Regime.CARNIVORE),
-	CLOWN ("clown", Regime.CARNIVORE),
-	SOLE  ("sole",  Regime.HERBIVORE),
-	BAR   ("bar",   Regime.HERBIVORE),
-	CARPE ("carpe", Regime.HERBIVORE);
-
-	private String nom;
-	private Regime regime;
-
-	Race(String nom, Regime regime) {
-		this.nom = nom;
-		this.regime = regime;
-	}
-
-	public String toString() {
-		return nom;
-	}
-
-	public Regime getRegime() {
-		return regime;
-	}
-}
-*/
 
 public abstract class Poisson extends EtreVivant {
 	protected String nom;

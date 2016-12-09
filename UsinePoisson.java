@@ -1,6 +1,6 @@
 enum TypePoisson {
 	MEROU, THON, CLOWN,
-	SOLE, BAR, CARPE
+	SOLE, BAR, CARPE;
 }
 
 public class UsinePoisson {
@@ -21,5 +21,4 @@ public class UsinePoisson {
 		}
 		return null;
 	}
-//		return new Poisson(nom, sexe);
 }
